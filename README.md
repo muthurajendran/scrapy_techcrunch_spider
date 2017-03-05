@@ -5,14 +5,15 @@ Scrapy spider which fetches articles from techcrunch.com. Once the article is fe
 
 
 ## Instalation and Run
-1. Create a virtual environment with Python 3 and do following or make sure you have all the libraries as mentioned in requirements.txt.
+1. Create a virtual environment with Python 3 as default 
+    or make sure you have all the libraries as mentioned in requirements.txt.
     
     `> pip install -r requirements.txt`
 2. To run the spider
   
     `> python scrapper/spider.py`
 3. Output will be written in the folder output as `output.csv`
-4. Run tests - from root of the projects enter
+4. Run tests - from project root
     
     `> nosetests`
 
