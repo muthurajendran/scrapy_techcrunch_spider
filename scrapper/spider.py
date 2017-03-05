@@ -25,7 +25,7 @@ class JsonWriterPipeline(object):
 
         # create output file
         openfile = open('output/output.csv', 'w', newline='')
-        fieldnames = ['company', 'company_link', 'title', 'link']
+        fieldnames = ['title', 'link', 'company', 'company_link']
         self.file = csv.DictWriter(openfile, fieldnames=fieldnames)
         self.file.writerow(headers_labels)
 
