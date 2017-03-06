@@ -4,7 +4,7 @@ Note: Built on Scrapy web crawler framework
 Scrapy spider which fetches articles from techcrunch.com. Once the article is fetched it'll try to find the company associated with article and writes output to a csv file
 
 
-## Instalation and Run
+## Installation and Run
 1. Create a virtual environment with Python 3 as default 
     or make sure you have all the libraries as mentioned in requirements.txt.
     
